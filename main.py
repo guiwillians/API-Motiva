@@ -8,14 +8,6 @@ from model_pred import rodar_pipeline, ESPECIES
 
 from fastapi.middleware.cors import CORSMiddleware
 
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],  # Em produção, substitua "*" pela URL específica do seu front-end
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
-
 app = FastAPI(title="API Desafio Motiva")
 
 app.add_middleware(
