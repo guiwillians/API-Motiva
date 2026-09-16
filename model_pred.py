@@ -610,5 +610,3 @@ def main():
 
     print("\nResumo")
     print(resumo_texto(df))
-
-# O bloco de execução global abaixo foi removido para evitar travamentos durante a importação pela API
